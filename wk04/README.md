@@ -8,6 +8,10 @@
 
 In project groups, discuss the two pieces of code and decide as a group which one you think has better style.
 
+[h11b](https://docs.google.com/spreadsheets/d/1C7AXgE4pMgb85PKEv4O0mkba79veWrgGXJ7AjHIRozs/edit?usp=sharing)
+
+[f09b](https://docs.google.com/spreadsheets/d/1qp91i3nfPdhzPXu60nUgEeD4iEz0H4FAeleyleHbXkU/edit?usp=sharing)
+
 ## B. Pylint
 
 Pick one of `review_1.py` and `review_2.py` and run it through pylint. Consider what issues it highlights and discuss, as a class, the alternatives for resolving them.
@@ -15,6 +19,13 @@ Pick one of `review_1.py` and `review_2.py` and run it through pylint. Consider 
 * Fixing the code so the issue no longer exists.
 * Adding a pragma to the line the issue occurs, so pylint stops reporting it.
 * Suppressing all instances of such errors via a config file.
+
+> Some helpful commands
+> * `pylint review_1.py`
+> * `pylint review_1.py --disable=no-module-docstring`
+> * `pylint review_1.py --disable=no-module-docstring --generate-rcfile > .pylintrc`
+
+
 
 ## C. Verification
 
@@ -28,6 +39,10 @@ Pick one of `review_1.py` and `review_2.py` and run it through pylint. Consider 
 ### Part 2 - Coverage Checking
 
 Your tutor will demonstrate how to run coverage by running it on `day_to_year.py`.
+
+> `coverage run --source=. -m pytest` or `coverage run -m pytest` for short. (On windows add `--branch` for branch coverage)
+>
+> Access reports via `coverage report` and `coverage html`.
 
 ## C. The Object Model
 
@@ -71,6 +86,20 @@ Create a new Tamagotchi object and invoke some of its methods.
 As you do this, discuss:
 * What is the difference between a module, a class, and a function?
 * What is the difference between normal function and a method of an object?
+
+> Module: a python file
+>
+> Class: an object type definition
+>
+> Function: A kind of object that allows you to give inputs and receive outputs (you can show them that functions themselves are objects in memory by printing out a function)
+
+* What is the difference between normal function and a method of an object?
+
+> Normal function - lives in a python program (accessed with `module.function()`)
+>
+> Method of an object - lives inside the object (accessed with `object.method()`)
+
+
 
 ## Extra Exercises
 
