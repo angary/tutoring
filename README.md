@@ -10,7 +10,7 @@ You can find the slides in pdf form in the repository, or at the links below.
 | **02** | [Python, testing (Pytest), Git](wk02)       | [slides](https://docs.google.com/presentation/d/1KJcXnZjpNEVL6oYkvqAg9JRjZhBiVuT7mrVDlwhqYOI/edit?usp=sharing) |
 | **03** | [Dictionaries, Exceptions, Importing](wk03) | [slides](https://docs.google.com/presentation/d/1zJ9dJiWF3DpzexM_SkhCHeUyGPpnXjlVRZd9z7LdonU/edit?usp=sharing) |
 | **04** | [Style, Verification, Testing](wk04)        | [slides](https://docs.google.com/presentation/d/109GECZEdatXroRHT9QMB5OsXUAtyTAWPIPh1l4nM1FE/edit?usp=sharing) |
-| **05** | NA                                          | NA                                                                                                             |
+| **05** | [HTTP, Flask, JSON](wk05)                   | [slides](https://docs.google.com/presentation/d/1YcKOQAvL4mJs0WyJ92Rwy_SuxyG8Iinz5hDyw3BZIZo/edit?usp=sharing) |
 | **06** | NA                                          | NA                                                                                                             |
 | **07** | NA                                          | NA                                                                                                             |
 | **08** | NA                                          | NA                                                                                                             |

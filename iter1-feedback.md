@@ -159,7 +159,7 @@ Alternatively, missing many things that are in the medium priority may result in
       "b": 2
   }
   ```
-- There is no need to put code after a `return` or a `raise` after another conditional statement
+- There is no need to put code after a `return` or a `raise` in a conditional statement
   ```py
   # INSTEAD OF
   if some_condition():
@@ -175,7 +175,7 @@ Alternatively, missing many things that are in the medium priority may result in
 
 ### Tests
 
-- Adding `autouse=True` as a kwag to `@pytest.fixture` means that the fixture will run every test.
+- Adding `autouse=True` as a kwarg to `@pytest.fixture` means that the fixture will run every test.
   This can be useful, as sometimes you may forget to add that fixture, even though it should be called for every test
 
   ```py
