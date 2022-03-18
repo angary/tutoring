@@ -38,19 +38,37 @@ Once you have done this, complete the implementations of the Flask route wrapper
 
 [h11b doc](https://docs.google.com/document/d/1aBZe_8lMALVVZdTISQTswMuR-ozE6pQGIoMn5R0yptM/edit?usp=sharing)
 
-2. Are there any considerations that need to be made when choosing how to breakup routes?
+[f09b doc](https://docs.google.com/document/d/1dg0ah0vL_KCwkLS7iJZ7YmFhk1MBbzDFPNuFSM-o-Ug/edit?usp=sharing)
+
+> Examples include:
+>  * like/dislike
+>  * save button
+>  * subscribe button
+>  * viewing comments (notice how this loads after initial load? Implies API call)
+>  * posting comment
+
+> Ones that probably aren't routes include:
+>  * share
+>  * volume change
+>  * full screen
+
+
+2. Are there any considerations that need to be made when choosing how  to breakup routes?
+
+> A balance in how much is captured in one route. For example, should the like/dislike be two routes or one? If they're functionally similar enough it can pay to have them in one route and just have a flag that differs them
+
 
 ## C. Networks
 
 Breakdown the key components of an HTTP URL, such as http://unsw.com/calendar/view?term=t3&week=5#top
 
-| Value           | Name |
-| --------------- | ---- |
-| http            |      |
-| unsw.com        |      |
-| calendar/view   |      |
-| ?term=t3&week=5 |      |
-| #top            |      |
+| Value           | Name                                                        |
+| --------------- | ----------------------------------------------------------- |
+| http            | Protocol (another example is SMTP which is used for emails) |
+| unsw.com        | Domain                                                      |
+| calendar/view   | Route                                                       |
+| ?term=t3&week=5 | Query String                                                |
+| #top            | Anchor                                                      |
 
 ## D. More Flask
 
