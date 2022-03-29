@@ -12,7 +12,7 @@ You can find the slides in pdf form in the repository, or at the links below.
 | **04** | [Style, Verification, Testing](wk04)        | [slides](https://docs.google.com/presentation/d/109GECZEdatXroRHT9QMB5OsXUAtyTAWPIPh1l4nM1FE/edit?usp=sharing) |
 | **05** | [HTTP, Flask, JSON](wk05)                   | [slides](https://docs.google.com/presentation/d/1YcKOQAvL4mJs0WyJ92Rwy_SuxyG8Iinz5hDyw3BZIZo/edit?usp=sharing) |
 | **06** | NA                                          | NA                                                                                                             |
-| **07** | NA                                          | NA                                                                                                             |
+| **07** | [Requirements, Design Principles](wk07)     | [slides](https://docs.google.com/presentation/d/1kDHUIXgwPy4_ngwiD25N1Y9jjVwAmpc2tNh59u-BOMY/edit?usp=sharing) |
 | **08** | NA                                          | NA                                                                                                             |
 | **09** | NA                                          | NA                                                                                                             |
 | **10** | NA                                          | NA                                                                                                             |
