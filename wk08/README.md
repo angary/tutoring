@@ -11,6 +11,7 @@ Break into random groups of 5 to complete the brainstorming part of the exercise
 ### Part 1 - Currying in Python
 
 * How can a function return a function in Python?
+  > Functions are first class variables in Python, this means that they can be passed into other functions, be returned from functions, and be reassigned values
 * What will the following program print? Try to figure it out before running the program.
 
 ```python
@@ -79,10 +80,15 @@ What is the ISBN? 2222222224
 ## D. Functional and Non-Functional
 
 * What is the difference between functional and non functional requirements? (See lecture slides)
+  > Functional requirements is how the core system works
+  > Non-Functional requirements relate more to judging how a system works / tends to be more qualitative
 * Are the following requirements functional or non functional?
   1. Every unsuccessful attempt by a user to access an item of data shall be recorded on an audit trail.
+  > Non-functional for major project
   2. Privacy of information, the export of restricted technologies, intellectual property rights, etc. should be audited.
+  > Non-functional for major project
   3. The software system should be integrated with banking API
+  > Functional
 
 ## E. Property-Based Testing
 

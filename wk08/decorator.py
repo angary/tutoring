@@ -1,7 +1,11 @@
 from isbn import is_valid
 
 def ISBNValidator(function):
-    pass
+    def wrapper(isbn, *args, **kwargs):
+        if is_valid(isbn):
+            return function(isbn, *args, **kwargs)
+        raise ValueError
+    return wrapper
 
 @ISBNValidator
 def printBook(isbn, book):
