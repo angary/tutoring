@@ -14,7 +14,7 @@ You can find the slides in pdf form in the repository, or at the links below.
 | **06** | NA                                                       | NA                                                                                                             |
 | **07** | [Requirements, Design Principles](wk07)                  | [slides](https://docs.google.com/presentation/d/1kDHUIXgwPy4_ngwiD25N1Y9jjVwAmpc2tNh59u-BOMY/edit?usp=sharing) |
 | **08** | [Decorators, Requirements, Property Based Testing](wk08) | [slides](https://docs.google.com/presentation/d/1AOM9fl6ateUr-LhaXFRl0TaYHoM2xm8CU5Uvz9yARkY/edit?usp=sharing) |
-| **09** | NA                                                       | NA                                                                                                             |
+| **09** | [Classes, Types, State Diagrams](wk09)                   | [slides](https://docs.google.com/presentation/d/1hRhDkyoDy1-C9EwaI2ol6_RfC5poObNyPBgvduIV7-w/edit?usp=sharing) |
 | **10** | NA                                                       | NA                                                                                                             |
 
 Good luck for your studies!
