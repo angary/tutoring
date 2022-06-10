@@ -1,19 +1,26 @@
-/*
-1. What does it do?
+const integerArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const result = [];
 
-2. What style could be improved here?
+for (const num of integerArray) {
+  // if (num % 2 === 0) {
+  //   result.push(num * 2);
+  // } else {
+  //   result.push(num);
+  // }
 
-3. How can we modify the code to be less like 'C' and more 'Javascripty'?
-
-*/
-
-let x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let result = [];
-for (let i = 0; i < x.length; i++) {
-  if (x[i] % 2 === 0) {
-    result.push(x[i] * 2);
-  } else {
-    result.push(x[i]);
-  }
+  // Ternary operator (one line if ... else statement)
+  const value = num % 2 === 0 ? num * 2 : num;
+  result.push(value);
 }
 console.log(result);
+
+/**
+ * An alternative method using `map`
+ * which is a function used in "functional programming".
+ *
+ * NOTE: You do not need to understand this until week 4.
+ */
+const resultFunctionalProgramming = integerArray.map((x) =>
+  x % 2 === 0 ? x * 2 : x
+);
+console.log(resultFunctionalProgramming);
