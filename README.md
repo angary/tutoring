@@ -8,6 +8,7 @@ You can find the code it's week's folder, and the slides from the links below.
 | ---------- | --------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | [01](wk01) | JavaScript, Git             | [link](https://docs.google.com/presentation/d/1v8AWey1W6xopu4vZoj_QYqUxwHd0YHL2bpJPt4xqsS4/edit?usp=sharing) |
 | [02](wk02) | JavaScript, Code Style, Git | [link](https://docs.google.com/presentation/d/1eRcaFwmqmUrdFqDYqexR8ihrizH1AhgKg2qb7naG-18/edit?usp=sharing) |
+| [03](wk03) | Code Review, NPM, Testing   | [link](https://docs.google.com/presentation/d/1BU2BcO-AsAgYxjBks7Jqpb1nydWx4ukX6W-XDnx6XEM/edit?usp=sharing) |
 
 Good luck for your studies!
 
