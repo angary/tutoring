@@ -1,0 +1,16 @@
+{
+  "name": "c.pretty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "date-fns": "^2.28.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
