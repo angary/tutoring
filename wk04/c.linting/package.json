@@ -1,0 +1,23 @@
+{
+  "name": "x",
+  "version": "1.0.0",
+  "description": "[TOC]",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "jest",
+    "tsc": "tsc --noEmit",
+    "ts-node": "ts-node",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
