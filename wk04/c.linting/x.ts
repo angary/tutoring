@@ -1,39 +1,17 @@
-export function drawX(size) {
-    let start = 1
-    let i = start
-    let j = start
-    let k = start
-    let l = size
-    
-    let x = '' 
-    
-    // Loops through each i
-    while (i <= size) {    
-        // Loops through each j
-        while (j <= size) {
-            if (j == k) {
-                x += "x"
-            } else if (j == l) { 
-                x += "x"
-            } else {
-                x += " "
-            }            
-            j++
-        }
-        i++
-        j = start
-        k++
-        l-- 
-        x = x.trim() + "\n"
+export function drawX(size: number) {
+  if (size % 2 === 0) {
+    return 'error';
+  }
+  let result = '';
+  for (let row = 0; row < size; row++) {
+    for (let col = 0; col < size; col++) {
+      if (col === row || col === size - row - 1) {
+        result += 'x';
+      } else {
+        result += ' ';
+      }
     }
-    
-    if (size % 2 == 0) {
-        // Cannot have an even size
-        return 'error';
-    }
-    
-    return x.trim()
+    result = result.trim() + '\n';
+  }
+  return result.slice(0, -1);
 }
-
-console.log(drawX(11))
-

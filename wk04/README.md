@@ -13,7 +13,7 @@ Other group members (in other teams) are encouraged to ask questions and learn f
 
 ## B. Typing
 
-1. Open `package.json` and look through `"dependencies"` and `devDependencies` (if they exist). Install the packages.
+1. Open `package.json` and look through `"dependencies"` and `"devDependencies"` (if they exist). Install the packages.
 
 1. Install [typescript](https://www.npmjs.com/package/typescript), [ts-node](https://www.npmjs.com/package/ts-node), [ts-jest](https://www.npmjs.com/package/ts-jest) and [@types/jest](https://www.npmjs.com/package/@types/jest) as development dependencies.
     
@@ -70,7 +70,7 @@ In [b.typing/rescript.js](b.typing/rescript.js) lies a few functions extracted o
 #### Satisfaction Formula
 
 The satisfaction of a restaurant is the average score between `customerService`, `foodVariety`, `valueForMoney`, `timeToMake` and `taste`. Thus, the formula is:
-```math
+$$
 \text{satisfaction} = 
 \frac{
     \text{customerService}
@@ -80,7 +80,7 @@ The satisfaction of a restaurant is the average score between `customerService`,
     + \text{taste}
 }
 {5}
-```
+$$
 You do not need to round the satisfaction value.
 
 ### Interface: Data Types
