@@ -10,6 +10,7 @@ You can find the code it's week's folder, and the slides from the links below.
 | [02](wk02) | JavaScript, Code Style, Git | [link](https://docs.google.com/presentation/d/1eRcaFwmqmUrdFqDYqexR8ihrizH1AhgKg2qb7naG-18/edit?usp=sharing) |
 | [03](wk03) | Code Review, NPM, Testing   | [link](https://docs.google.com/presentation/d/1BU2BcO-AsAgYxjBks7Jqpb1nydWx4ukX6W-XDnx6XEM/edit?usp=sharing) |
 | [04](wk04) | Teamwork, Typing, Linting   | [link](https://docs.google.com/presentation/d/1LrLAUkTdd_R3cq9Nzy7A-rSASAVydzgJl7kw3nKh0EI/edit?usp=sharing) |
+| [05](wk05) | Express, HTTP, Functions    | [link](https://docs.google.com/presentation/d/1xc9vkwlYgjiGYHnS4OpNlVuuLaNiWadPOpM8o5RaPB0/edit?usp=sharing) |
 
 Good luck for your studies!
 
