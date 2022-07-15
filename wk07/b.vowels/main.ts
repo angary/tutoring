@@ -5,5 +5,9 @@ const prompt = promptSync();
 
 let input: string;
 while ((input = prompt('Enter message: '))) {
-  console.log('FIXME', input);
+  try {
+    console.log(findVowels(input));
+  } catch (e) {
+    console.log(`Caught Error from findVowels: '${e.message}'.`);
+  }
 }
