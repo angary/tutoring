@@ -12,6 +12,7 @@ You can find the code it's week's folder, and the slides from the links below.
 | [04](wk04) | Teamwork, Typing, Linting   | [link](https://docs.google.com/presentation/d/1LrLAUkTdd_R3cq9Nzy7A-rSASAVydzgJl7kw3nKh0EI/edit?usp=sharing) |
 | [05](wk05) | Express, HTTP, Functions    | [link](https://docs.google.com/presentation/d/1xc9vkwlYgjiGYHnS4OpNlVuuLaNiWadPOpM8o5RaPB0/edit?usp=sharing) |
 | [07](wk07) | DRY, Exceptions, Interfaces | [link](https://docs.google.com/presentation/d/1oUwYaCM8BlRfmtGpNAACIfwV78YJrQ2OMcTWabrZ8rI/edit?usp=sharing) |
+| [08](wk08) | Coverage, State Diagrams    | [link](https://docs.google.com/presentation/d/1ltbTiOvcnnEAUbF-hC9IyR1jTOgGDxrDncItjV7L7No/edit?usp=sharing) |
 
 Good luck for your studies!
 
